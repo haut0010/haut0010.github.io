@@ -1,0 +1,146 @@
+@charset "utf-8";
+ /*http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.body clearfix {
+	background-image: url("pexels-laura-tancredi-7078360.jpg")
+}
+
+.mylogo clearfix {
+	float: left;
+	
+
+.toplist {
+	background: #72a9ae;
+	overflow: hidden;
+	height: 240px;
+	width: auto;
+	transition-duration: 500ms;
+}
+
+.toplist:hover {
+	background: #454545;
+}
+
+.bluebar {
+	display: inline-block;
+}
+
+
+
+.firstdiv {
+	
+	float: left;
+}
+.imgdiv {
+	float: right;
+}
+th{
+	color: #72a9ae
+}
+
+table, th, td {
+	border: 1px solid;
+
+}
+h2 {
+	color: #72a9ae
+}
+
+.form clearfix {
+	float: left;
+	width: 50%;
+	height: 425px;
+}
+.procard clearfix {
+	float:right;
+	width: 50%;
+	height:425px;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #454545;
+  background-color: #72a9ae;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.footer
+{
+	background: #454545;
+}
+
+.footerleft{
+ 	float:left; 
+	width:33%;
+    height:250px;
+ }
+.footermiddle{
+	float:left;
+	width:33%;
+	height:250px;
+ }
+.footerright{
+	float:right;
+	width:33%;
+	height:250px;
+}

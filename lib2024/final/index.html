@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Assignment</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="body clearfix">
+	<header id="mainheader" class="mainheader">
+		<h1 id="mylogo" class="mylogo clearfix">
+		My Logo
+		</h1>
+		<nav id="firstnav" class="firstnav clearfix">
+			<ul class="toplist">
+				<li class="bluebar">
+					Home
+				</li>
+				<li class="bluebar">
+					About
+				</li>
+				<li>
+					Schedule
+				</li>
+				<li class="bluebar">
+					Portfolio
+				</li>
+				<li class="bluebar">
+					Contact
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="firstdiv clearfix" id="firstdiv">
+			<h2 class="aboutheader" id="aboutheader">
+				About
+			</h2>
+			<p>
+				Lorem ipsum dolor sit amet, solum dolorem ut quo, ne mei error solet vidisse. Ex tantas iuvaret vix, ex vitae democritum quo, mel option volutpat incorrupte ne. Adhuc euripidis ea duo, ut etiam tibique reformidans vel. Quo ad nemore regione aliquam. 
+			</p>
+			<p>
+				Id his nibh delicata referrentur, mel no soluta propriae. Ut laudem integre consectetuer vix, vel dolore quodsi temporibus ne. Graeco voluptatibus an his, ei cum enim accusamus. Regione integre dignissim pri in, quo et salutandi dignissim. Alii perfecto pertinacia eam no, ne verear postulant eos. Ornatus tincidunt voluptatibus te ius.
+			</p>
+		</div>
+		<div class="imgdiv clearfix" id="imgdiv">
+			<img src="img/pexels-ylanite-koppens-843226.jpg" alt="Stock Image" height="235" width="320">
+			
+		</div>
+		<div>
+			<h2 class="schedulediv clearfix" id="schedulediv">
+				Schedule
+			</h2>
+			<table class="maintable clearfix" id="maintable">
+			<thead>
+				<tr class="headings">
+					<th>Time</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+				</tr>
+			</thead>
+				<tbody>
+					<tr>
+						<td>09:00-11:00</td>
+						<td>Communication I</td>
+						<td>Client Services</td>
+						<td>Special Collections</td>
+						<td>Directed Research Seminar</td>
+						<td>Client Services</td>
+					</tr>
+						<tr>
+						<td>11:00-12:30</td>
+						<td>Reference</td>
+						<td>Internet App</td>
+						<td>Library Software</td>
+						<td>French</td>
+						<td>Reference</td>
+					</tr>
+					<tr>
+						<td>14:00-15:00</td>
+						<td>Acquisitions</td>
+						<td>General Elective</td>
+						<td>Marketing</td>
+						<td>Emerging Library Tech</td>
+						<td>Library Software</td>
+					</tr>
+						<tr>
+						<td>15:30-17:30</td>
+						<td>French</td>
+						<td>French</td>
+						<td>Acquisitions</td>
+						<td>Subject Analysis</td>
+						<td>Internet App</td>
+					</tr>
+				</tbody>		
+			</table>
+		</div>
+		<section class="forminfo clearfix" id="forminfo">
+			<h2 class="profileedit">Edit Profile</h2>
+			<div class="namecontainer" id="namecontainer">
+				<form action="submit.php" method="post" class="form clearfix" id="form">
+					<div>
+						<label for="Nameinput">Name</label>
+						<input type="text" name="Nameinput" id="Nameinput" placeholder="Name Here" required>
+					</div>
+					<div class="emailcon" id="emailcon">
+						<label for="emailcontainer">Email</label>
+						<input type="email" name="emailcontainer" id="emailcontainer" value="fake@fakemail.com" required>
+					</div>
+					<div class="addressinput" id="addressinput">
+						<label for="addressinp">Address</label>
+						<input type="text" name="addressinp" id="addressinp" placeholder="123 Fake St" required>
+					</div>
+					<div>
+						<label for="cityinput">City</label>
+						<input type="text" name="cityinput" id="cityinput" placeholder="Ottawa" required>
+					</div>
+					<div class="provinceinp" id="provinceinp">
+						<label for="province">Province</label>
+						<select name="province" id="province">
+							<option value="QU">Quebec</option>
+							<option value="MAN">Manitoba</option>
+							<option value="ON" selected>Ontario</option>
+						</select>
+					</div>
+					<div class="postalinput">
+						<label for="postalinput">Postal Code</label>
+						<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postalcode" id="postalinput" placeholder="A0A 0A0">
+					</div>
+					<button type="submit" id="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+			<section>
+				<div class="procard clearfix">
+					<h2>Profile Info</h2>
+					<div class="card clearfix">
+						<img src="img/pexels-evie-shaffer-2652346.jpg" alt="ProfilePic" width="135" height="135">
+						<h3 class="cardinfo">Celia Jewer</h3>
+						<p>fake@fakemail.com</p>
+						<p>1385 Woodroffe Ave, Nepean</p>
+						<p>ON, K2G 1V8</p>
+					</div>
+				
+				</div>
+
+			</section>
+
+	</main>
+	<footer class="footer clearfix" id="footer">
+		<div class="leftfooter">
+			<h4><b>Quick Links</b></h4>
+			<p>SCHEDULE</p>
+			<p>ABOUT</p>
+			<p>PORTFOLIO</p>
+			<p>CONTACT</p>	
+		</div>
+		<div class="middlefooter">
+			<h4><b>FOLLOW US</b></h4>
+			
+		</div>
+		<div class="rightfooter">
+			<h4><b>ADDRESS </b></h4>
+			<p>1385 Woodroffe Ave.</p>
+			<p>Nepean, ON K2K 1V8</p>
+			<p>Canada</p>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="js/form_validation.js"></script>
+
+
+</body>
+</html>
